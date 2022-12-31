@@ -1,9 +1,10 @@
 import React from 'react'
 import './header.css'
 import CTA from './CTA'
-import ME from '../../assets/photo.jpeg'
+import ME from '../../assets/me.png'
+import HeaderSocial from './HeaderSocial'
 
-const Header = () => {
+function Header() {
   return (
     <header>
       <div className="container header__container">
@@ -11,11 +12,13 @@ const Header = () => {
         <h1>Zaky Wahyu Oktavianto</h1>
         <h5 className="text-light">FrondEnd Developer, UI&UX Designer</h5>
         <CTA />
+        <HeaderSocial/>
 
         <div className='me'>
-          <img scr={ME} alt="me" />
+          <img src = {ME} alt="me"/> 
         </div>
         <a href="#contact" className='scroll__down'> Scroll Down </a>
+        
       </div>
     </header>
   )
