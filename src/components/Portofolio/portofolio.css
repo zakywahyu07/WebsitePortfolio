@@ -18,12 +18,14 @@
 }
 
 .portfolio__item-image{
-    border-radius: 1.5rem;
+    border-radius: 1.2rem;
     overflow: hidden;
+    
 }
 
 .portfolio__item h3{
     margin: 1.2rem 0 2rem;
+    text-align: center;
 }
 
 .portfolio__item-cta{
